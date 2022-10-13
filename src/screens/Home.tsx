@@ -8,7 +8,7 @@ interface Props {
     title: string;
 }
 
-const Home: React.FC<Props> = ({title}) => {
+const Home: React.FC<Props> = () => {
     const navigate = useNavigate();
     return  <div>
         <img src={logo} className="App-logo" alt="logo-myeasyfarm"/>

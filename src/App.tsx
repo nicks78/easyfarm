@@ -4,7 +4,6 @@ import MyMap from './screens/Map';
 
 import './App.css';
 
-
 function App() {
   return  <BrowserRouter>
             <Routes>
